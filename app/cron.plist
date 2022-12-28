@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+
+    <key>Label</key>
+    <string>cron.plist</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>3</integer>
+      <key>Minute</key>
+      <integer>00</integer>
+    </dict>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/ndoan/PersoProj/discord-auto-message-github/app/stderr.log</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/ndoan/PersoProj/discord-auto-message-github/app/stdout.log</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/ndoan/PersoProj/discord-auto-message-github/.venv/bin/python</string>
+      <string>/Users/ndoan/PersoProj/discord-auto-message-github/app/bot.py</string>
+    </array>
+
+  </dict>
+</plist>

@@ -1,0 +1,8 @@
+.venv
+
+.idea
+
+.env
+
+app/stderr.log
+app/stdout.log
